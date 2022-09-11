@@ -274,6 +274,7 @@ class _TagsEditorState extends State<TagEditor> {
         : Container(
             child: Row(
               children: <Widget>[
+                Expanded(child: tagEditorArea),
                 Container(
                   width: 40,
                   alignment: Alignment.centerLeft,
@@ -286,7 +287,6 @@ class _TagsEditorState extends State<TagEditor> {
                     child: Icon(widget.icon),
                   ),
                 ),
-                Expanded(child: tagEditorArea),
               ],
             ),
           );
