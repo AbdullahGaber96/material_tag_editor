@@ -235,7 +235,7 @@ class _TagsEditorState extends State<TagEditor> {
         ),
         children: <Widget>[
           LayoutId(
-            id: 1,
+            id: 0,
             child: TextField(
               style: widget.textStyle,
               focusNode: _focusNode,
